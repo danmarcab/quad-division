@@ -294,7 +294,11 @@ controlsView config model =
             [ exitFullScreenButton ]
 
         else
-            [ Element.el [ Element.padding config.spacing.tiny ] <|
+            [ Element.el
+                [ Element.padding config.spacing.tiny
+                , Element.centerX
+                ]
+              <|
                 Element.text "Quad Division"
             , Element.row
                 [ Element.spacing config.spacing.tiny
