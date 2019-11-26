@@ -9,6 +9,7 @@
     "elm-hot": "^1.1.2",
     "elm-json": "^0.2.3",
     "node-elm-compiler": "^5.0.4",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-compress": "^1.1.0"
   }
 }
